@@ -41,7 +41,7 @@ public class MainTrain {
 					out.println(a+","+b+","+(ac.f(a)+1)+","+(bd.f(b)-0.02+(r.nextInt(40))/100.0f));
 			}
 			out.close();
-		}catch(IOException e) {}
+		}catch(IOException ignored) {}
 	}
 
 	static void checkCorrelationTrain(CorrelatedFeatures c,String f1, String f2, float a, float b){
